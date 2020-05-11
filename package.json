@@ -1,0 +1,24 @@
+{
+  "name": "biconomy-sdk-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcticfloyd1984/biconomy-sdk-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arcticfloyd1984/biconomy-sdk-backend/issues"
+  },
+  "homepage": "https://github.com/arcticfloyd1984/biconomy-sdk-backend#readme",
+  "dependencies": {
+    "@biconomy/mexa": "file:../mexa-sdk",
+    "ethers": "^4.0.47",
+    "web3": "^1.2.7"
+  }
+}
